@@ -1,0 +1,85 @@
+== var -- let -- const
+/**
+ * JS Engine == (v8)
+ * ----------------------------
+ * var
+ * ----------------------------------
+ *  == accept values from deferent datatypes
+ *  == allow redeclaration
+ *  == Allow Hoisting
+ *  == function scope
+ *  == add to window object
+ *
+ * ----------------------------
+ * let
+ * ----------------------------------
+ *  == Reassign values from deferent datatypes
+ *  == Don't allow redeclaration
+ *  == Allow Hoisting Stored in TDZ
+ *  == block scope
+ *  == Not  add to window object
+ * ----------------------------
+ * const
+ * ----------------------------------
+ *  == Can't Reassign
+ *  == Don't allow redeclaration
+ *  == Allow Hoisting Stored in TDZ
+ *  == block scope
+ *  == Not  add to window object
+ *
+ */
+
+== Spread Operator
+== Destructuring
+== Rest Params VS Default Values
+== String API
+/**
+ *  == concat
+ *  == includes
+ *  == startsWith
+ *  == endsWith
+ *  == trim
+ *  == trimStart
+ *  == trimEnd
+ *
+ */
+
+== Arrow Function
+/**
+ *  == function statement
+ *  == function expression
+ *  == arrow function
+ * --------------------------------
+ */
+
+// // fun statement
+// function sum(x, y) {
+// 	return x + y;
+// }
+
+// // fun expression
+
+// let add = function (x, y) {
+// 	return x + y;
+// };
+
+// this -- special object - advanced in js
+// this pattern -- advanced
+
+// arrow (this)
+// let sayHello = () => console.log("Hello Angular Group");
+
+// let square = (x) => x * x;
+
+// let result = square(5);
+
+// // arrow fun
+// let total = (x, y) => x + y;
+
+// let great = (x, y) => {
+// 	console.log("Hello Angular group");
+// 	return x + y;
+// };
+
+== Array API
+== Object Features
